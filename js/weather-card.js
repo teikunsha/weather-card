@@ -1,4 +1,4 @@
-const url = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-FF9390C3-6F01-4221-BA8A-CB6C4F1429DB&elementName=";
+const url = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-FF9390C3-6F01-4221-BA8A-CB6C4F1429DB&elementName=";
 const counties = ['臺北市', '新北市', '基隆市', '桃園市', '新竹縣', '新竹市', '苗栗縣', '臺中市', '彰化縣', '南投縣', '雲林縣', '嘉義縣', '嘉義市', '臺南市', '高雄市', '屏東縣', '宜蘭縣', '花蓮縣', '臺東縣', '連江縣', '金門縣', '澎湖縣'];
 
 let sunny = `
