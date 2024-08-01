@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Kiwi Maru', serif;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
+.container{
+    position: relative; 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #f0d5b3,#ffffff);
+    gap: 15px;
+    padding: 50px 0;
+    
+}
+
+.element {
+    height: 200px;
+    width: 220px;
+    margin: 10px;
+
+}
+
+.white {fill:#FFFFFF}
+.gray {fill:#E0E0E0}
+.yellow {fill:#FFEB3B}
+
+.card{
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 280px;
+    background: linear-gradient(to bottom, rgb(53, 101, 189), rgb(122, 180, 216));
+    border: 1px solid F;
+    border-radius: 10px 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 4px 4px rgb(77, 75, 75);
+    transition: all .5s;
+    
+}
+
+.card:hover{
+    z-index: 99;
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+
+}
+
+.location{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    color: rgb(97, 96, 96);
+    font-size: 80px;
+    
+}
+
+.left-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.img{
+    width: 90px;
+    padding-bottom: 10px;
+
+}
+
+.right-block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;;
+    line-height: 50px;;
+    letter-spacing: 2px;
+    color: #FFF;
+
+}
+
+.temperature{
+    display: flex;
+    gap: 20px;
+
+}
+
+.maxt::after{
+    content:'';
+    display: inline-block;
+    position: relative;
+    border-right: 1px solid #FFF;
+    left: 10px;
+    height: 22px;
+   
+}
+
+@media (max-width:500px) {
+    .container{
+        padding: 0;
+        gap: 9px;
+    }
+
+    .card:hover{
+        z-index: 99;
+        transform: scale(0.9);
+        transition: all 1s ease-in-out;
+    
+    }
+    
+}
+
+@media (max-width:427px) {
+    .element{
+        width: 200px;
+    }
+    .location{
+        top: 200px;
+        font-size: 70px;
+        
+    }
+    .right-block{
+        font-size: 25px;
+
+    }
+}
+
+@media (max-width:385px) {
+    .element{
+        width: 180px;
+    }
+    .location{
+        top: 210px;
+        font-size: 60px;
+        
+    }
+    .right-block{
+        font-size: 20px;
+    }
+
+}
