@@ -6,7 +6,7 @@
 
 台灣各地即時氣象資訊
 
-串接「[中央氣象局開放資料平臺之資料擷取API](https://opendata.cwb.gov.tw/dist/opendata-swagger.html#/%E9%A0%90%E5%A0%B1/get_v1_rest_datastore_F_D0047_089)」
+串接「[中央氣象局開放資料平臺之資料擷取API](https://opendata.cwa.gov.tw/dist/opendata-swagger.html)」
 
 ### 前端：
 
